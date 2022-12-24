@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* 1REM = 10 pixeles*/
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.Contenedor {
+  position: absolute;
+  width: 12rem;
+  height: 4.8rem;
+  left: 4rem;
+  top: 4rem;
+}
+
+.Logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 4rem;
+}
+
+.IngTexto {
+  margin-left: 24rem;
+  margin-top: 16.8rem;
+}
+
+.Texto {
+  width: 57.7rem;
+  height: 4.8rem;
+  font: inherit;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  color: #0a3871;
+}
