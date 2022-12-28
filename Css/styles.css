@@ -71,7 +71,7 @@ body {
   font-size: 1.2rem;
   height: 1.8rem;
 }
-
+/* Botones */
 .Botones {
   display: flex;
   flex-direction: row;
@@ -107,6 +107,14 @@ body {
   border: 1px solid #0a3871;
   color: #0a3871;
   border-radius: 2.4rem;
+}
+
+.Cop {
+  position: absolute;
+  margin-left: 77.2rem;
+  margin-bottom: 3.2rem;
+  text-align: center;
+  z-index: 1;
 }
 
 .MensajeErr {
