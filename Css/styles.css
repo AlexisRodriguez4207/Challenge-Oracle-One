@@ -29,38 +29,141 @@ body {
   gap: 4rem;
 }
 
-.IngTexto {
+.Texto {
+  position: absolute;
+  max-width: 68rem;
+  min-width: 68rem;
+  height: 38.8rem;
+  min-height: 38.8rem;
+  max-height: 38.8rem;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  color: #0a3871;
+  border: none;
+  background-color: transparent;
   margin-left: 24rem;
   margin-top: 16.8rem;
   color: #0a3871;
 }
 
-.Texto {
-  width: 57.7rem;
-  height: 4.8rem;
-  font: Inter;
-  font-weight: 400;
-  font-size: 3.2rem;
-  line-height: 4.8rem;
-  color: #0a3871;
-}
-
 .Leyenda {
+  position: absolute;
   width: 22.9rem;
   height: 1.8rem;
-  position: absolute;
+  margin-left: 24rem;
+  margin-top: 68.1rem;
+  opacity: 80%;
 }
 
 .Aviso {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  padding: 0;
+  padding: 0rem;
   gap: 0.8rem;
-  margin-left: 24rem;
-  margin-top: 85.1rem;
+
   /*Fuente*/
-  font: Inter;
+  font-family: "Inter";
+  font-weight: 400;
   color: #495057;
   font-size: 1.2rem;
-  line-height: 1.8rem;
+  height: 1.8rem;
+}
+
+.Botones {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 68rem;
+  height: 6.7rem;
+  margin-left: 24rem;
+  margin-top: 72.5rem;
+  gap: 2.4rem;
+}
+
+.btn {
+  width: 32.8rem;
+  height: 6.7rem;
+  border-radius: 2.4rem;
+  padding: 2.4rem;
+  gap: 0.8rem;
+  background-color: #0a3871;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /*Fuente*/
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.936rem;
+}
+
+.Des {
+  background-color: #d8dfe8;
+  border: 1px solid #0a3871;
+  color: #0a3871;
+  border-radius: 2.4rem;
+}
+
+.MensajeErr {
+  position: absolute;
+  width: 40rem;
+  height: 85.4rem;
+  margin-top: 4rem;
+  margin-left: 100rem;
+  margin-bottom: 4rem;
+  border-radius: 3.2rem;
+  background-color: #fff;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.Muneco {
+  position: absolute;
+  width: 33.6rem;
+  height: 30.4rem;
+  margin-top: 24.3rem;
+  margin-left: 3.2rem;
+}
+
+.Mensajes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0rem;
+  gap: 1.6rem;
+  position: absolute;
+  width: 33.6rem;
+  height: 12.2rem;
+  margin-left: 3.2rem;
+  margin-top: 53.9rem;
+}
+
+.MensajeNin {
+  width: 33.6rem;
+  height: 5.8rem;
+  /*Fuente*/
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 120%;
+  text-align: center;
+  color: #343a40;
+  margin-bottom: -2rem;
+}
+
+.MensajeIng {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  text-align: center;
+  color: #495057;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }

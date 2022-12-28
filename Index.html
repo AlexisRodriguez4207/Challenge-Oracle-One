@@ -17,19 +17,34 @@
   <body>
     <div class="Contenedor">
       <img src="./img/Vector.png" alt="Logo" class="Logo" />
+      <div class="IngTexto">
+        <textarea
+          name="Texto"
+          class="Texto"
+          cols="30"
+          rows="10"
+          placeholder="Ingresa el Texto Aquí"
+        ></textarea>
+      </div>
+      <div class="Leyenda">
+        <h1 class="Aviso">
+          <img src="./img/Group.png" alt="Exclamacion" />Solo letras minusculas
+          y sin acentos
+        </h1>
+      </div>
+      <div class="Botones">
+        <button class="btn">Encriptar</button>
+        <button class="btn Des">Desencriptar</button>
+      </div>
     </div>
-    <div class="IngTexto">
-      <input type="text" class="Texto" placeholder="Ingresa el Texto Aqui" />
-    </div>
-    <div class="leyenda">
-      <h1 class="Aviso">
-        <img src="./img/Group.png" alt="Exclamacion" />Solo letras minusculas y
-        sin acentos
-      </h1>
-    </div>
-    <div class="Botones">
-      <button class="btn">Encriptar</button>
-      <button class="btn">Desencriptar</button>
+    <div class="MensajeErr">
+      <img src="./img/Muñeco.png" alt="Imagen" class="Muneco" />
+      <div class="Mensajes">
+        <p class="MensajeNin">Ningun mensaje fue encontrado</p>
+        <p class="MensajeNin MensajeIng">
+          Ingresa el texto que desees encriptar o desencriptar
+        </p>
+      </div>
     </div>
   </body>
 </html>
