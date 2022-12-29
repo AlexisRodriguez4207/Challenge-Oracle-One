@@ -47,6 +47,12 @@ function Copiar(){
     var copyText = document.querySelector("#Encrip")
     copyText.select();
     document.execCommand("copy");
-    alert("Texto copiado ");
+    Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Tu texto ha sido copiado',
+        showConfirmButton: true,
+        timer: 1500
+      })
 }
 
