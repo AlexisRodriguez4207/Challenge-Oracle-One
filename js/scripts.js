@@ -36,7 +36,7 @@ function DesEncrip(){
 
     document.getElementById("Imagen").style.display = "none";
     document.getElementById("Encrip").innerHTML = textEncriptado;
-    document.getElementById("Cop").style.display = "inherit";
+    document.getElementById("Cop").style.display = "inline-block";
     document.getElementById("NullMsg").style.display = "none";
 
     const txt = document.getElementById("Texto");
@@ -47,12 +47,15 @@ function Copiar(){
     var copyText = document.querySelector("#Encrip")
     copyText.select();
     document.execCommand("copy");
+
+    /* Sweet Alert*/ 
     Swal.fire({
         position: 'center',
         icon: 'success',
         title: 'Tu texto ha sido copiado',
         showConfirmButton: true,
-        timer: 1500
+        timer: 2500
       })
+
 }
 

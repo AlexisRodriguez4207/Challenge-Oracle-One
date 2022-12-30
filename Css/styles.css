@@ -45,6 +45,9 @@ body {
   background-color: transparent;
   margin-left: 24rem;
   margin-top: 16.8rem;
+}
+
+.Texto::placeholder {
   color: #0a3871;
 }
 
@@ -115,11 +118,12 @@ body {
 
 .Cop {
   position: absolute;
-  margin-left: 77.2rem;
+  margin-left: 3.8rem;
   margin-bottom: 3.2rem;
-  text-align: center;
-  z-index: 1;
+  margin-top: 76.5rem;
+
   display: none;
+  align-items: center;
 }
 
 .MensajeErr {
