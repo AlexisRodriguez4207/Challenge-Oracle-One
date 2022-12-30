@@ -21,6 +21,13 @@ function Encriptar(){
     document.getElementById("Cop").style.display = "inherit";
     document.getElementById("NullMsg").style.display = "none";
 
+    document.getElementById("Encrip").style.height = "60.3rem";
+    document.getElementById("Encrip").style.maxHeight = "60.3rem";
+    document.getElementById("Encrip").style.minHeight = "60.3rem";
+
+
+
+
     /* Limpiar area de texto*/
     const txt = document.getElementById("Texto");
     txt.value = "";
@@ -54,8 +61,7 @@ function Copiar(){
         icon: 'success',
         title: 'Tu texto ha sido copiado',
         showConfirmButton: true,
-        timer: 2500
-      })
-
+        timer: 2600,     
+    })
 }
 

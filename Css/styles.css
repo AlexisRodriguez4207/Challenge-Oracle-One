@@ -121,9 +121,13 @@ body {
   margin-left: 3.8rem;
   margin-bottom: 3.2rem;
   margin-top: 76.5rem;
-
   display: none;
   align-items: center;
+}
+
+/*Ventana Emergente Sweet Alert*/
+.swal2-popup {
+  font-size: 1.5rem !important;
 }
 
 .MensajeErr {
@@ -139,7 +143,6 @@ body {
 }
 
 .Muneco {
-  position: absolute;
   width: 33.6rem;
   height: 30.4rem;
   margin-top: 24.3rem;
@@ -156,7 +159,6 @@ body {
   width: 33.6rem;
   height: 12.2rem;
   margin-left: 3.2rem;
-  margin-top: 53.9rem;
 }
 
 .MensajeNin {
@@ -164,10 +166,9 @@ body {
   width: 33.6rem;
   max-width: 33.6rem;
   min-width: 33.6rem;
-
   height: 5.8rem;
-  max-height: 5.8rem;
   min-height: 5.8rem;
+  max-height: 20.3rem;
 
   /*Fuente*/
   font-family: "Inter";
@@ -193,4 +194,5 @@ body {
   flex-grow: 0;
   border: none;
   margin-top: 2rem;
+  height: 20.3rem;
 }
