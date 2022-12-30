@@ -54,7 +54,6 @@ function Copiar(){
     var copyText = document.querySelector("#Encrip")
     copyText.select();
     document.execCommand("copy");
-
     /* Sweet Alert*/ 
     Swal.fire({
         position: 'center',
