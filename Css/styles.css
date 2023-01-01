@@ -205,4 +205,94 @@ body {
   margin-top: 2rem;
   height: 20.3rem;
   min-height: 20.3rem;
+  width: 33.6rem;
+  max-width: 33.6rem;
+  min-width: 33.6rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .Texto {
+    margin-left: 4rem;
+    margin-top: 24rem;
+    width: 68rem;
+  }
+
+  .Leyenda {
+    margin-left: 4rem;
+    margin-top: 83.6rem;
+  }
+
+  .Botones {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    width: 68rem;
+    height: 6.7rem;
+    margin-left: 4rem;
+    margin-top: 87rem;
+  }
+
+  .MensajeErr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    width: 68rem;
+    height: 14rem;
+    min-width: 68rem;
+    margin-top: 107.1rem;
+    margin-left: 7.2rem;
+  }
+
+  .Objeto {
+    display: none;
+  }
+
+  .Mensajes {
+    width: 62.4rem;
+    height: 4.5rem;
+    background: #ffffff;
+    box-shadow: 0rem 2.4rem 3.2rem -0.8rem rgba(0, 0, 0, 0.08);
+    border-radius: 3.2rem;
+    align-items: center;
+  }
+
+  .MensajeNin {
+    width: 68rem;
+    min-width: 68rem;
+    max-width: 62.4rem;
+    margin-top: 1.5rem;
+    margin-left: -1rem;
+
+    background: #ffffff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+  }
+
+  .MensajeIng {
+    height: 6.9rem;
+    max-height: 6.9rem;
+    margin-top: 0;
+    min-height: 6.9rem;
+    margin-top: -0.5rem;
+    margin-bottom: 0.3rem;
+    margin-left: -3.2rem;
+  }
+
+  .Cop {
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2.4rem;
+    gap: 0.8rem;
+    margin-top: 31rem;
+    width: 62.4rem;
+    height: 6.7rem;
+    margin-left: 3.2rem;
+
+    /*Centrar Boton*/
+    align-items: center;
+    justify-content: center;
+  }
 }

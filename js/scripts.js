@@ -21,9 +21,15 @@ function Encriptar(){
     document.getElementById("Cop").style.display = "inherit";
     document.getElementById("NullMsg").style.display = "none";
 
-    document.getElementById("Encrip").style.height = "60.3rem";
-    document.getElementById("Encrip").style.maxHeight = "60.3rem";
-    document.getElementById("Encrip").style.minHeight = "60.3rem";
+    document.getElementById("Encrip").style.height = "40.6rem";
+    document.getElementById("Encrip").style.maxHeight = "40.6rem";
+    document.getElementById("Encrip").style.minHeight = "40.6rem";
+
+    // document.getElementById("Encrip").style.minHeight = "33.6rem;";
+    document.getElementById("TextAr").style.minHeight = "30rem";
+    document.getElementById("TextAr").style.height = "30rem";
+    document.getElementById("TextAr").style.maxHeight = "30rem";
+
 
 
 
