@@ -213,13 +213,13 @@ body {
 @media screen and (max-width: 1200px) {
   .Texto {
     margin-left: 4rem;
-    margin-top: 24rem;
+    margin-top: 11.6rem;
     width: 68rem;
   }
 
   .Leyenda {
     margin-left: 4rem;
-    margin-top: 83.6rem;
+    margin-top: 70.6rem;
   }
 
   .Botones {
@@ -230,7 +230,7 @@ body {
     width: 68rem;
     height: 6.7rem;
     margin-left: 4rem;
-    margin-top: 87rem;
+    margin-top: 75rem;
   }
 
   .MensajeErr {
@@ -241,7 +241,7 @@ body {
     width: 68rem;
     height: 14rem;
     min-width: 68rem;
-    margin-top: 107.1rem;
+    margin-top: 95.1rem;
     margin-left: 7.2rem;
   }
 
